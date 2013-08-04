@@ -5,7 +5,7 @@ title: About
 
 <div style="font-size:1em; vertical-align: top;">
 
-<div style="display: inline-block; width: 56%; vertical-align: top;">
+<div style="display: inline-block; width: 52%; vertical-align: top;">
 I am a co-founder of <a href="http://wwww.wellbia.com">Wellbia.com Co., Ltd.</a>, a security company in South Korea.
 I have developed anti-cheat software called XIGNCODE since 2007. 
 I wrote several PC security programs like PC Firewall, Anti-Spyware, and Keyboard Security Software. 
