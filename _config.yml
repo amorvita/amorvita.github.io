@@ -1,0 +1,20 @@
+url: http://amorvita.github.io
+title: YoungJin Shin
+description: Security Programmer
+language: en-us
+
+author: YoungJin Shin
+email: amorvita@live.com
+
+github: amorvita
+twitter: codemaru
+
+analytics:
+    profile: UA-444891-3
+
+permalink: /:year/:month/:title
+
+sitemap:
+    include: ["/index.html"]
+
+exclude: ["README.md"]
