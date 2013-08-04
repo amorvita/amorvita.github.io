@@ -3,9 +3,9 @@ layout: page
 title: About
 ---
 
-<div style="float:right; margin-left: 20px;"><img src="/images/b.jpg"></div>
+<div style="font-size:1em; vertical-align: top;">
 
-<div style="height: 560px;">
+<div style="display: inline-block; width: 56%; vertical-align: top;">
 I am a co-founder of <a href="http://wwww.wellbia.com">Wellbia.com Co., Ltd.</a>, a security company in South Korea.
 I have developed anti-cheat software called XIGNCODE since 2007. 
 I wrote several PC security programs like PC Firewall, Anti-Spyware, and Keyboard Security Software. 
@@ -21,3 +21,8 @@ I like Grey's anatomy, Steve Barakatt, and Guillaume Musso. I also love World Of
 <br/>
 You can contact me via amorvita at live dot com.
 </div>
+
+<div style="display: inline-block; margin-left: 20px; width: 40%; vertical-align: top;"><img src="/images/b.jpg"></div>
+
+</div>
+
