@@ -43,7 +43,7 @@ Anyway, let's start to find the evidence of the zombie process. I launched notep
 	  
 	No active threads  
 
-I describe details of a zombie process for who can't understand what the zombie process is precisely. 'zombie process' is the process terminated completely, but its kernel process structure (EPROCESS) exists. The process can't be destroyed if it wants to be. This situation looks like a zombie, so we call them zombie. As you can see from the windbg dump, zombie process has no address spaces, no kernel objects, and no threads. It has only kernel process structure and PID resource.
+I describe details of a zombie process for who can't understand what the zombie process is precisely. 'zombie process' is the process terminated completely, but its kernel process structure (EPROCESS) exists. The process want to be destroyed, but it can't. This situation looks like a zombie, so we call them zombie. As you can see from the windbg dump, zombie process has no address spaces, no kernel objects, and no threads. It has only kernel process structure and PID resource.
 
 Then, why can't the zombie process be terminated? The reason is simple. Because there's a process which references the terminated process. In this scenario, we can make a zombie process easily using the following code.
 
