@@ -43,7 +43,7 @@ Anyway, let's start to find the evidence of the zombie process. I launched notep
 	  
 	No active threads  
 
-I describe details of a zombie process for who can't understand what the zombie process is precisely. 'zombie process' is the process terminated completely, but its kernel process structure (EPROCESS) exists. The process want to be destroyed, but it can't. This situation looks like a zombie, so we call them zombie. As you can see from the windbg dump, zombie process has no address spaces, no kernel objects, and no threads. It has only a kernel process structure entry (EPROCESS) and a PID resource.
+I describe details of a zombie process for who can't understand what the zombie process is precisely. 'zombie process' is the process terminated completely, but its kernel process structure (EPROCESS) exists. The process wants to be destroyed, but it can't. This situation looks like a zombie, so we call them zombie. As you can see from the windbg dump, zombie process has no address spaces, no kernel objects, and no threads. It has only a kernel process structure entry (EPROCESS) and a PID resource.
 
 Then, why can't the zombie process be terminated? The reason is simple. Because there's a process which references the terminated process. In this scenario, we can make a zombie process easily using the following code.
 
@@ -77,4 +77,4 @@ If you want to make a zombie process, just follow instructions. After terminatin
 ex) zombie_maker.exe `[notepad PID]`
 3. terminating notepad.exe
 
-Eventually, zombie process springs up when another process catch its handle in many case, like <a href="http://jiniya.net/tt/769">we can't delete a file when the explorer holds the file handle</a>. Then, what kind of program makes a zombie process in Windows frequently? That's a security program like anti-virus which scans process in runtime. Fortunately, these situation occurs in user level, we can solve them killing the process which holds the handle of the zombie process. However, we can't remove a zombie process until rebooting a system if the zombie process comes from a handle leak of a kernel mode driver.
+Eventually, zombie process springs up when another process catch its handle in many case, like <a href="http://jiniya.net/tt/769">we can't delete a file when the explorer holds the file handle</a>. Then, what kind of program makes a zombie process in Windows frequently? That's a security program like anti-virus which scans process in runtime. Fortunately, these situation occurs in user level, we can solve them by killing the process which holds the handle of the zombie process. However, we can't remove a zombie process until rebooting a system if the zombie process comes from a handle leak of a kernel mode driver.
