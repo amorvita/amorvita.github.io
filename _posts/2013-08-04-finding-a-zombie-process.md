@@ -5,7 +5,7 @@ date: 2013-08-04 14:00
 comments: true
 categories: []
 ---
-Generally, 'zombie process' emerged in fork based operating systems freqenetly. 'zombie process' pops up many times in "Advanced Programming in the UNIX(R) Environment", Richard Stevens' masterpiece. However, 'zombie process' is not familiar in Windows. Jeffrey Richter's great book, "Windows via C/C++" doesn't describe 'zombie process' at all.
+Generally, 'zombie process' emerged in fork based operating systems frequently. 'zombie process' pops up many times in "Advanced Programming in the UNIX(R) Environment", Richard Stevens' masterpiece. However, 'zombie process' is not familiar in Windows. Jeffrey Richter's great book, "Windows via C/C++" doesn't describe 'zombie process' at all.
 
 Then, is there no 'zombie process' in Windows? To tell the conclusion first, it's not. Why 'zombie process' is so unfamiliar in Windows? The main reason is that Windows hides information with the zombie process completely. Have you ever seen a process tagged 'zombie' or a dead process on your task manager? Maybe, you never see them. Have you ever met a dead process when you enumerate processes using Toolhelp or Psapi library? You never see them, too. These things are the same as using Windows NT native API.
 
