@@ -13,7 +13,7 @@ I wrote several PC security programs like PC Firewall, Anti-Spyware, and Keyboar
 <br/>
 I have contributed a number of articles about Windows programming to <a href="http://www.imaso.co.kr">Microsoftware</a>, the famous programming magazine in South Korea. 
 I also host a blog (<a href="http://www.jiniya.net">http://www.jiniya.net</a>) that includes articles about system programming on Windows.
-I have awarded <a href="http://mvp.microsoft.com/ko-kr/mvp/YoungJin%20Shin-36705">the Microsoft MVP for Visual C++</a> since 2006. 
+I have awarded <a href="http://mvp.microsoft.com/ko-kr/mvp/YoungJin%20Shin-36705">the Microsoft MVP for Visual C++</a> since 2005. 
 <br/>
 <br/>
 I like Grey's anatomy, Steve Barakatt, and Guillaume Musso. I also love World Of Warcraft and Sid Meier's Civilization IV.
