@@ -19,7 +19,7 @@ I have awarded <a href="http://mvp.microsoft.com/ko-kr/mvp/YoungJin%20Shin-36705
 I like Grey's anatomy, Steve Barakatt, and Guillaume Musso. I also love World Of Warcraft and Sid Meier's Civilization IV.
 <br/>
 <br/>
-You can contact me via amorvita at live dot com.
+You can contact me via codewiz at gmail dot com.
 </div>
 
 <div style="display: inline-block; margin-left: 20px; width: 40%; vertical-align: top;"><img src="/images/b.jpg"></div>
